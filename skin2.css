@@ -1,0 +1,67 @@
+
+
+.container{
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+  }
+  
+  .column {
+    flex: 1;
+    padding: 10px;
+  }
+
+.box{
+ background-color:rgb(164, 161, 161);
+ width: 300px;
+ height:15px;
+ padding: 20px;
+ border: 5px;
+ margin: 50px;
+
+}
+
+.box2{
+    background-color:rgb(66, 63, 63);
+    width: 250px;
+    height:20px;
+    padding: 30px;
+    border: 5px solid black;
+    margin: 55px;
+   
+}
+
+.box3{
+    background-color:rgb(52, 44, 44);
+    width: 300px;
+    height:150px;
+    padding: 20px;
+    border: 5px;
+    margin: 100px;
+}
+
+button{
+
+  background: red; color: aquamarine;font-size: 30px;margin: 20px 20px 20px 300px;
+
+} 
+
+.form id{
+   color: rgb(32, 203, 52);font-size: 30px;margin: 20px 20px 20px 300px;
+
+}
+
+@media (max-width: 600px) {
+    .column {
+      flex: 100%;
+    }
+
+} 
+
+
